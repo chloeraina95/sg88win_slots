@@ -1,0 +1,350 @@
+@charset "UTF-8";
+/* Slider */
+/* line 44, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+.slick-loading .slick-list {
+  background: #fff url("./ajax-loader.gif") center center no-repeat;
+}
+
+/* Icons */
+@font-face {
+  font-family: "slick";
+  src: url("./fonts/slick.eot");
+  src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"), url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?5qux1j");
+  src: url("fonts/icomoon.eot?5qux1j#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?5qux1j") format("truetype"), url("fonts/icomoon.woff?5qux1j") format("woff"), url("fonts/icomoon.svg?5qux1j#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Arrows */
+/* line 71, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+.slick-prev,
+.slick-next {
+  position: absolute;
+  display: block;
+  height: 30px;
+  width: 35px;
+  line-height: 0px;
+  font-size: 0px;
+  cursor: pointer;
+  background: transparent;
+  color: transparent;
+  top: 45%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+/* line 89, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+.slick-prev:hover, .slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  outline: none;
+  background: transparent;
+  color: transparent;
+}
+
+/* line 94, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+.slick-prev:hover:before, .slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+  opacity: 1;
+}
+
+/* line 98, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  opacity: 0.25;
+}
+
+/* line 101, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 35px;
+  line-height: 1;
+  color: white;
+  opacity: 0.75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 112, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+.slick-prev {
+  left: -40px;
+}
+
+/* line 114, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+[dir="rtl"] .slick-prev {
+  left: auto;
+  right: -40px;
+}
+
+/* line 118, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+.slick-prev:before {
+  content: "←";
+}
+
+/* line 120, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+[dir="rtl"] .slick-prev:before {
+  content: "→";
+}
+
+/* line 126, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+.slick-next {
+  right: -40px;
+}
+
+/* line 128, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+[dir="rtl"] .slick-next {
+  left: -40px;
+  right: auto;
+}
+
+/* line 132, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+.slick-next:before {
+  content: "→";
+}
+
+/* line 134, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+[dir="rtl"] .slick-next:before {
+  content: "←";
+}
+
+/* line 141, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+#lazy_wh .slick-prev,
+#lazy_wh .slick-next {
+  height: 90px;
+  width: 50px;
+  top: 48%;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* line 147, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+#lazy_wh .slick-prev:before,
+#lazy_wh .slick-next:before {
+  font-family: "icomoon";
+  font-size: 46px;
+  line-height: 1;
+  color: #fff;
+}
+
+/* line 153, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+#lazy_wh .slick-prev:hover,
+#lazy_wh .slick-next:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* line 157, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+#lazy_wh .slick-prev {
+  left: 18%;
+  z-index: 1;
+}
+
+/* line 160, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+[dir="rtl"] #lazy_wh .slick-prev {
+  left: auto;
+  right: 18%;
+  z-index: 1;
+}
+
+/* line 165, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+#lazy_wh .slick-prev:before {
+  content: "";
+}
+
+/* line 167, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+[dir="rtl"] #lazy_wh .slick-prev:before {
+  content: "";
+}
+
+/* line 172, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+#lazy_wh .slick-next {
+  right: 18%;
+  z-index: 1;
+}
+
+/* line 175, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+[dir="rtl"] #lazy_wh .slick-next {
+  left: 18%;
+  z-index: 1;
+  right: auto;
+}
+
+/* line 180, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+#lazy_wh .slick-next:before {
+  content: "";
+}
+
+/* line 182, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+[dir="rtl"] #lazy_wh .slick-next:before {
+  content: "";
+}
+
+/* Dots */
+/* line 191, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+.slick-dotted.slick-slider {
+  margin-bottom: 30px;
+}
+
+/* line 195, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+.slick-dots {
+  position: absolute;
+  bottom: 35px;
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* line 204, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* line 212, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+.slick-dots li button {
+  border: 0;
+  background: transparent;
+  display: block;
+  height: 20px;
+  width: 20px;
+  outline: none;
+  line-height: 0px;
+  font-size: 0px;
+  color: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* line 224, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+.slick-dots li button:hover, .slick-dots li button:focus {
+  outline: none;
+}
+
+/* line 227, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+.slick-dots li button:hover:before, .slick-dots li button:focus:before {
+  opacity: 1;
+}
+
+/* line 231, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+.slick-dots li button:before {
+  position: relative;
+  top: 0;
+  left: 0;
+  content: "•";
+  width: 20px;
+  height: 20px;
+  font-family: "slick";
+  font-size: 12px;
+  line-height: 0px;
+  text-align: center;
+  color: black;
+  opacity: 0.25;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 249, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+.slick-dots li.slick-active button:before {
+  color: black;
+  opacity: 0.75;
+}
+
+@media screen and (max-width: 1600px) {
+  /* line 258, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+  #lazy_wh .slick-prev {
+    left: 14%;
+    top: 50%;
+  }
+  /* line 262, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+  #lazy_wh .slick-next {
+    right: 14%;
+    top: 50%;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  /* line 271, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+  #lazy_wh .slick-prev {
+    left: 8%;
+    top: 50%;
+  }
+  /* line 275, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+  #lazy_wh .slick-next {
+    right: 8%;
+    top: 50%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  /* line 284, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+  .slick-prev {
+    left: -5%;
+    z-index: 1;
+  }
+  /* line 288, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+  .slick-next {
+    right: -6%;
+    z-index: 1;
+  }
+  /* line 293, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+  #lazy_wh .slick-prev {
+    left: 7%;
+    top: 50%;
+  }
+  /* line 297, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+  #lazy_wh .slick-next {
+    right: 8%;
+    top: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 305, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+  .slick-prev {
+    left: -8%;
+  }
+  /* line 308, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+  .slick-next {
+    right: -8%;
+  }
+  /* line 312, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+  #lazy_wh .slick-prev {
+    display: none !important;
+  }
+  /* line 315, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+  #lazy_wh .slick-next {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* line 339, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+  .slick-prev {
+    left: -8%;
+  }
+  /* line 342, D:/Users/USER/Desktop/BssB_WebSite/fafatest/html/scss/slick-theme.scss */
+  .slick-next {
+    right: -9%;
+  }
+}
+
+/*# sourceMappingURL=../css/slick-theme.map */
