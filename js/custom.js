@@ -14,7 +14,7 @@ function loadSlider(){
   function callbanner(x){
     swal({
         title: "Sample Alert",
-        text: "You clicked the banner",
+        text: "You clicked banner " + x,
         icon: "error",
         button: "OK",
     });
