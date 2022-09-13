@@ -22,7 +22,7 @@ a:hover{
 
 /* scroller */
 i.shout-icon:before{
-    content: url(../../images/desktop/shout-icon.png);
+    content: url(../img/shout-icon.png);
 }
 .scroller .ns{
     position: relative;

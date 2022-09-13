@@ -8,7 +8,7 @@
 	<link rel="shortcut icon" href="fav.ico?v=0" />
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="css/bootstrap-3.4.1.min.css">	
-	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css'>
 	<!-- banners and slidders -->
 	<link rel="stylesheet" type="text/css" href="css/slick.css">
 	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
@@ -62,28 +62,7 @@
 <script src="js/jquery.autoscroll.js"></script>
 <!-- bootstrap -->
 <script src="js/bootstrap-3.4.1.min.js"></script>
-<script>
-	// banner
-	loadSlider();
-	function loadSlider(){
-	    $('.general_banner').slick({
-	      infinite: true,
-	      dots: true,
-	      slidesToShow: 1,
-	      slidesToScroll: 1,
-	      autoplay: true,
-	      autoplaySpeed: 3000,
-	      arrows: true,
-	    });
-  	}
-  	function callbanner(x){
-		swal({
-			title: "Sample Alert",
-			text: "You clicked the banner",
-			icon: "error",
-			button: "OK",
-		});
-  	}
-</script>
+<!-- custom/global -->
+<script src="js/custom.js"></script>
 </body>
 </html>
